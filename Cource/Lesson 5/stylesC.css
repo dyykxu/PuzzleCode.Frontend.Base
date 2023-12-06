@@ -1,0 +1,12 @@
+.food-block{
+    background-color: lightgray;
+    padding: 10px 20px;
+    border: 3px solid orange;
+}
+.food-block h2{
+    padding: 10px 0px;
+}
+.food-block p{
+    padding: 10px 20px;
+    border-bottom: 1px solid black;
+}
