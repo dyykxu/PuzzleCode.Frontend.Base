@@ -1,0 +1,59 @@
+.wildlife-title{
+    font: normal 700  44px 'Arial', sans-serif;
+}
+.wildlife-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.wildlife-list li{
+    font: italic  400 24px 'Arial', sans-serif;
+    width: 400px;
+    border: 2px solid black;
+    margin: 15px 5px;
+    padding: 15px;
+}
+.wildlife-description{
+    font: normal 500 30px 'Arial', sans-serif;
+}
+
+#Lion{
+    color: orange;
+    background-color: #ffa50022;
+}
+
+#Tiger{
+    color: #385;
+    background-color: #3852;
+}
+
+#Elephant{
+    color: rgb(73, 97, 178);
+    background-color: rgba(73, 97, 178, 0.2);
+}
+
+#Cheetah{
+    color: #414234;
+    background-color: #41423422;
+}
+
+#Zebra{
+    color: #cca2a3;
+    background-color: #cca2a322;
+}
+
+#Giraffe{
+    color: rgb(178, 123, 45);
+    background-color: #b27b2d22;
+}
+
+.wildlife-image{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://w-dog.ru/wallpapers/2/10/435997378214040/zakat-solnca-v-savanne-odinokie-derevya-sredi-kovra-travy.jpg");
+    background-size: 100vw 100vh;
+    z-index: -1;
+}
