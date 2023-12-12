@@ -1,0 +1,16 @@
+h1 {
+    font-family: 'Arial', 'Verdana', sans-serif;
+  }
+  p {
+    font-family: 'Arial';
+    font-size: 21px;
+  }
+  
+  .one {
+    font-style: normal;
+    font-size: xx-large;
+  }
+ 
+  .normal {
+    font-weight: normal;
+  }

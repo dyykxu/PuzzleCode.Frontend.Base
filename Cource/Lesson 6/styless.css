@@ -9,42 +9,35 @@
 .wildlife-list li{
     font: italic  400 24px 'Arial', sans-serif;
     width: 400px;
+    height: auto;
     border: 2px solid black;
     margin: 15px 5px;
     padding: 15px;
+    background: right;
+    padding-right: 500px;
+    background-size: 400px auto;
+    background-repeat: no-repeat;
 }
 .wildlife-description{
     font: normal 500 30px 'Arial', sans-serif;
 }
 
-#Lion{
+#cat{
     color: orange;
     background-color: #ffa50022;
+    background-image: url("https://webpulse.imgsmail.ru/imgpreview?mb=webpulse&key=pulse_cabinet-image-e2c2ac73-71e5-43c8-86b6-9f138554e223");
 }
 
-#Tiger{
-    color: #385;
+#dog{
+    color: rgb(136, 91, 51);
     background-color: #3852;
+    background-image: url("https://proprikol.ru/wp-content/uploads/2020/02/porodistye-sobaki-krasivye-kartinki-19.jpg");
 }
 
-#Elephant{
-    color: rgb(73, 97, 178);
+#rat{
+    color: rgb(178, 178, 178);
     background-color: rgba(73, 97, 178, 0.2);
-}
-
-#Cheetah{
-    color: #414234;
-    background-color: #41423422;
-}
-
-#Zebra{
-    color: #cca2a3;
-    background-color: #cca2a322;
-}
-
-#Giraffe{
-    color: rgb(178, 123, 45);
-    background-color: #b27b2d22;
+    background-image: url("https://ferrethome.ru/wp-content/uploads/0/a/2/0a201fa737a9cbbb7080b87df4b0036f.jpeg");
 }
 
 .wildlife-image{
@@ -53,7 +46,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url("https://w-dog.ru/wallpapers/2/10/435997378214040/zakat-solnca-v-savanne-odinokie-derevya-sredi-kovra-travy.jpg");
+    background-image: url("https://youtu.be/f9VbU_pCh8w?si=hs2UqyGK8PWvxWGZ");
     background-size: 100vw 100vh;
     z-index: -1;
 }
