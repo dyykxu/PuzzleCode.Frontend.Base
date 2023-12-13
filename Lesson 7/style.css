@@ -1,0 +1,56 @@
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+li {
+    background-color: #2E9AFF;
+    margin-bottom: 5px;
+  }
+  
+  li:nth-child(2n) {
+    background-color: #f90000;
+  }
+  
+  li:not(:first-child) {
+    background-color: #fff;
+  }
+  
+  li {
+    background-color: #2E9AFF;
+    margin-bottom: 5px;
+  }
+  li:not(:first-child) {
+    background-color: #fff;
+  }
+  ul {
+    list-style-type: none;
+  }
+  ul li:before {
+    content: "\203A ";
+    padding-right: 6px;
+    font-size: 16px;
+    color: #00bf80;
+    font-weight: bold;
+  }
+  .in-put::placeholder {color: rgb(29, 54, 155);}

@@ -1,16 +1,58 @@
-h1 {
-    font-family: 'Arial', 'Verdana', sans-serif;
-  }
-  p {
-    font-family: 'Arial';
-    font-size: 21px;
-  }
-  
-  .one {
-    font-style: normal;
-    font-size: xx-large;
-  }
- 
-  .normal {
-    font-weight: normal;
-  }
+.wildlife-title{
+  font: normal 700  44px 'Arial', sans-serif;
+}
+.wildlife-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.wildlife-list li{
+  font: italic  400 24px 'Arial', sans-serif;
+  width: 400px;
+  height: auto;
+  border: 2px solid black;
+  margin: 15px 5px;
+  padding: 15px;
+  background: right;
+  padding-right: 500px;
+  background-size: 400px auto;
+  background-repeat: no-repeat;
+}
+.wildlife-description{
+  font: normal 500 30px 'Arial', sans-serif;
+}
+
+#Lion{
+  color: orange;
+  background-color: #ffa50022;
+  background-image: url("https://rosspectr.ru/wp-content/uploads/9/2/5/9251a6dbacafeb352186915a0332c4f2.jpeg");
+}
+
+#Tiger{
+  color: #385;
+  background-color: #3852;
+  background-image: url("https://new-year-party.ru/wp-content/uploads/2021/02/tigr-3.jpg");
+}
+
+#Elephant{
+  color: rgb(73, 97, 178);
+  background-color: rgba(73, 97, 178, 0.2);
+  background-image: url("https://gas-kvas.com/grafic/uploads/posts/2023-09/1695815270_gas-kvas-com-p-kartinki-slon-1.jpg");
+}
+
+#Cheetah{
+  color: #414234;
+  background-color: #41423422;
+  background-image: url("https://img.goodfon.ru/wallpaper/original/e/7d/gepard-poza-dikaia-koshka-profil.jpg");
+}
+
+.wildlife-image{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://w-dog.ru/wallpapers/2/10/435997378214040/zakat-solnca-v-savanne-odinokie-derevya-sredi-kovra-travy.jpg");
+  background-size: 100vw 100vh;
+  z-index: -1;
+}
