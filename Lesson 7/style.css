@@ -53,4 +53,4 @@ li {
     color: #00bf80;
     font-weight: bold;
   }
-  .in-put::placeholder {color: rgb(29, 54, 155);}
+  in-put::placeholder {color: rgb(29, 54, 155);}

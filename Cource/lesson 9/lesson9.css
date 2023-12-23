@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #334B35;
+    height: 110px;
+    display: flex;
+    justify-content: space-evenly;
+}
+menu{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 50px;
+    margin: 39px 0;
+}
+
+menu p{
+    color: #FFFFFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+svg{
+    width: 197.461px;
+    height: 30.952px;
+    flex-shrink: 0;
+    margin: 38px 0;
+}
+.HeroSection{
+    height: 954px;
+    background-image: url("./media/HeroBG.png");
+    background-repeat:round;
+    padding-left: 240px;
+}
+.text-button p{
+    padding-top: 268px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 120% */
+}
+.text-button h1{
+    color: #F7C35F;
+    font-family: Livvic;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    margin-top: 50px;
+}
+.text-button h1 img{
+    position: absolute;
+    width: 75px;
+    height: 62px;
+    flex-shrink: 0;
+    bottom: 50px;
+    right: 150px;
+}
+.text-button h2{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text-button .discription{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 5px;
+    margin-top: 50px;
+}
+.text-button button{
+    border-radius: 20px;
+    background: #F7C35F;
+    padding: 25px 50px;
+    border: 0;
+    margin-top: 30px;
+    color: #1A1A1A;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.text-button{
+    width: 730px;
+}
+
+.Popular{
+    height: 656px;
+    background-color: #334b35;
+    text-align: center;
+    padding-top: 78px;
+}
+
+.Popular p{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    text-transform: uppercase;
+}
+
+.Popular h2{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.Fruits{
+    display: flex;
+    justify-content: space-between;
+    width: 1448px;
+    margin: 100px auto;
+}
+
+.Fruit{
+    padding: 33px 0px;
+    text-align: center;
+    background-color: #445945;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 183px;
+    height: 177px;
+}
+
