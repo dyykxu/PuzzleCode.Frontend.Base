@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #334B35;
+    height: 110px;
+    display: flex;
+    justify-content: space-evenly;
+}
+menu{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 50px;
+    margin: 39px 0;
+}
+
+menu p{
+    color: #FFFFFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+svg{
+    width: 197.461px;
+    height: 30.952px;
+    flex-shrink: 0;
+    margin: 38px 0;
+}
+.HeroSection{
+    height: 954px;
+    background-image: url("./media/HeroBG.png");
+    background-repeat:round;
+    padding-left: 9.3%;
+}
+.text-button p{
+    padding-top: 268px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 120% */
+}
+.text-button h1{
+    color: #F7C35F;
+    font-family: Livvic;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    margin-top: 50px;
+}
+.text-button h1 img{
+    position: absolute;
+    width: 75px;
+    height: 62px;
+    flex-shrink: 0;
+    bottom: 50px;
+    left: 505px;
+}
+.text-button h2{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text-button .discription{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 5px;
+    margin-top: 50px;
+    width: 60vw;
+}
+.text-button button{
+    border-radius: 20px;
+    background: #F7C35F;
+    padding: 25px 50px;
+    border: 0;
+    margin-top: 30px;
+    color: #1A1A1A;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.text-button button:hover{
+    background: #F6D086;
+}
+.text-button button:focus{
+    background: #C58D21;;
+}
+.text-button button:active{
+    background: #A16C06;
+    color: #FFFFFF;
+}
+
+
+.Popular{
+    height: 500px;
+    background-color: #334b35;
+    text-align: center;
+    padding-top: 78px;
+}
+
+.Popular p{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    text-transform: uppercase;
+}
+
+.Popular h2{
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.Fruits{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 100px auto;
+}
+.Fruit:hover{
+    background: #F7C35F;
+}
+.Fruit:hover p{
+    color: #000;
+}
+.Fruit:focus{
+    background: #6A8A6D;
+}
+.Fruit:active{
+    background: #263C28;
+}
+
+.Fruit{
+    padding: 33px 0px;
+    text-align: center;
+    background-color: #445945;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 183px;
+    height: 177px;
+}
+
+.Fruit img{
+    padding-bottom: 20px;
+}
+
+@media (max-width: 1600px){
+    .Fruits{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+    }
+    .Fruit{
+        margin: 33px auto;
+    }
+    .Popular{
+        height: 700px;
+    }
+}
+@media (max-width: 900px){
+    .Fruits{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .Fruit{
+        margin: 33px auto;
+    }
+    .Popular{
+        height: 950px;
+    }
+    nav{
+        display: block;
+        text-align: center;
+        height: 100%;
+        padding-bottom: 10px;
+    }
+    menu{
+        display: block;
+    }
+    menu p{
+        padding: 10px 0;
+        margin: 5px 0;
+        background-color: #445945;
+    }
+}
+@media (max-width: 639px){
+    .text-button h1 img{
+        width: 40px;
+        height: 30px;
+        left: 370px;
+        bottom: 35px;
+    }
+    .text-button h1{
+        font-size: 50px;
+    }
+    .text-button h2{
+        font-size: 40px;
+    }
+    .Fruits{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .Fruit{
+        padding: 10px 0;
+        margin: 33px auto;
+        width: 91px;
+        height: 88px;
+    }
+    .Fruit img{
+        padding-bottom: 10px;
+        width: 45%;
+    }
+    .Popular{
+        height: 800px;
+    }
+    .Popular p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 453px){
+    .text-button h1 img{
+        width: 40px;
+        height: 30px;
+        left: 110px;
+        bottom: 35px;
+    }
+}
